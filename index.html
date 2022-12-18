@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#my_aducation" class="nav-link">My aducation</a></li>
+                <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#educational_projects" class="nav-link">Educational projects</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <img class="photo" src="G0rJoP_esXI.jpg" alt="my photo" width="200" height="270">
+            
+            <section class="contacts" id="contacts">
+            <h2>Contacts:</h2>
+            <ul>
+            <li>email: milafoxwork@gmail.com</li>
+            <li>discord: @mila-fox</li>
+            <li>github: MilaFoxDubkovskaya</li>
+            </ul>
+            </section>
+            
+            <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Git&Github</li>
+            <li>Sypress</li>
+            <li>Trello</li>
+            </ul>
+            </section>
+            
+        </div>
+
+        <aside class="container_right">
+            <h1>Liudmila Dubkouskaya</h1>
+        <section id="about_me">
+        
+        <h2>About me</h2>
+        <p>Hi! I am 35 years old and I am a chemistry teacher. I decided to change my occupation. My goal now is to learn programming and become a front-end developer. I hope that it will be so.</p>
+        </section>
+        
+        <section id="my_aducation">
+        <h2>Education</h2>
+        <h3>Courses:</h3>
+        <p>RedRover.school: August 2022 - at present</p>
+        <p>RS School Курс «JavaScript/Front-end»: December 2022 - at present</p>
+        </section>
+        
+        <section id="code_example">
+        <h2>Code example</h2>
+        <code>
+            function sortDict(dict) { <br>
+            let a = Object.entries(dict).sort((a, b) =&gt; b[1] - a[1])<br>
+            for (let i = 0; i &lt; a.length; i++) {<br>
+                if (a[i][0].toLowerCase() === a[i][0].toUpperCase()) {<br>
+                 a[i][0] = +a[i][0]<br>
+          } else {<br>
+            a[i][0] = a[i][0]<br>
+          }<br>
+        } return a<br>
+      }
+        </code>
+        </section>
+        
+        <section id="educational_projects">
+        <h2>Educational projects</h2>
+        <p>My first project - CV in markdown format:</p>
+        <a href="https://MilaFoxDubkovskaya.github.io/rsschool-cv/cv">My CV in markdown</a>
+        </section>
+        
+        <section id="english">
+        <h2>English</h2>
+        <p>Proficiency level: A1</p>
+        </section>
+        
+        
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <a class="link" href="https://github.com/MilaFoxDubkovskaya">GitHub</a>
+            <time class="time">2022</time>
+            <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="50" height="20">
+            </a>
+            </nav>
+    </footer>
+   
+    
+
+   
+</body>
+</html>
