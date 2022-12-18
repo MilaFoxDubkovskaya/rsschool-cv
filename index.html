@@ -15,9 +15,9 @@
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
-                <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
-                <li class="nav-item"><a href="#my aducation" class="nav-link">My aducation</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#my_aducation" class="nav-link">My aducation</a></li>
                 <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
               </ul>
@@ -49,53 +49,65 @@
             </ul>
             </section>
             
-            </div>
+        </div>
+
+        <aside class="container_right">
+            <h1>Liudmila Dubkouskaya</h1>
+        <section id="about_me">
+        
+        <h2>About me</h2>
+        <p>Hi! I am 35 years old and I am a chemistry teacher. I decided to change my occupation. My goal now is to learn programming and become a front-end developer. I hope that it will be so.</p>
+        </section>
+        
+        <section id="my_aducation">
+        <h2>Education</h2>
+        <h3>Courses:</h3>
+        <p>RedRover.school: August 2022 - at present</p>
+        <p>RS School Курс «JavaScript/Front-end»: December 2022 - at present</p>
+        </section>
+        
+        <section id="code_example">
+        <h2>Code example</h2>
+        <code>
+            function sortDict(dict) { <br>
+            let a = Object.entries(dict).sort((a, b) =&gt; b[1] - a[1])<br>
+            for (let i = 0; i &lt; a.length; i++) {<br>
+                if (a[i][0].toLowerCase() === a[i][0].toUpperCase()) {<br>
+                 a[i][0] = +a[i][0]<br>
+          } else {<br>
+            a[i][0] = a[i][0]<br>
+          }<br>
+        } return a<br>
+      }
+        </code>
+        </section>
+        
+        <section id="work_experience">
+        <h2>Work experience</h2>
+        <p>At first I was a teacher of chemistry and biology (2010-2014). Then she worked as a laboratory assistant in chemical analysis (2015-2016). I am currently a chemistry tutor (from 2016 to the present). There is no work experience in the IT industry yet, but I plan to get it in the future.</p>
+        </section>
+        
+        <section id="english">
+        <h2>English</h2>
+        <p>Proficiency level: A1</p>
+        </section>
+        
+        
+        </aside>
     </main>
 
-    <footer class="footer"></footer>
-    <h1>Liudmila Dubkouskaya</h1>
+    <footer class="footer">
+        <nav>
+            <a class="link" href="https://github.com/MilaFoxDubkovskaya">GitHub</a>
+            <time class="time">2022</time>
+            <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="50" height="20">
+            </a>
+            </nav>
+    </footer>
+   
+    
 
-    <h2>Contacts</h2>
-    <ul>
-        <li>gmail: milafoxwork@gmail.com</li>
-        <li>discord: mila-fox</li>
-        <li>github: MilaFoxDubkovskaya</li>
-    </ul>
-
-    <h2>Skills</h2>
-    <ul>Basic usage:
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>VSCode</li>
-        <li>GIT</li>
-        <li>Sypress</li>
-        <li>Trello</li>
-    </ul>
-
-    <h2>Code example</h2>
-    <code>
-                function sortDict(dict) { <br>
-                let a = Object.entries(dict).sort((a, b) ="&gt;" b[1] - a[1])<br>
-                for (let i = 0; i "&lt;" a.length; i++) {<br>
-                    if (a[i][0].toLowerCase() === a[i][0].toUpperCase()) {<br>
-                     a[i][0] = +a[i][0]<br>
-              } else {<br>
-                a[i][0] = a[i][0]<br>
-              }<br>
-            } return a<br>
-          }
-            </code>
-
-    <h2>My aducation</h2>
-    <ul>
-        <li>RedRover.school: August 2022 - at present</li>
-        <li>RSSchool:* December 2022 - at present</li>
-    </ul>
-
-    <h2>English</h2>
-    <ul>
-        <li>Proficiency level: A2</li>
-    </ul>
+   
 </body>
 </html>
