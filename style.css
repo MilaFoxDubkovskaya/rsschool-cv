@@ -90,6 +90,8 @@
     
     .nav-link {
     transition: .3s;
+    text-decoration: none;
+    color: black;
     }
     
     .section-item a {
